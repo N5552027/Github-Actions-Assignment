@@ -27,4 +27,4 @@ jobs:
     - name: Run tests
       working-directory: python_tests
       run: |
-        pytest python_tests
+        pytest python_tests/testCaclulator.py
